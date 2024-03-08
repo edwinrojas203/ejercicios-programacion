@@ -48,6 +48,7 @@ console.log(numerodetabla," x ", " = ", numerodetabla*i)
 */
 
 //1. Mostrar los numeros desde el 1 hasta el 50
+/*
 
 for(let i = 1; i <= 50; i++) {
     console.log(i);
@@ -55,6 +56,18 @@ for(let i = 1; i <= 50; i++) {
 
 // 2. mostrar los numeros pares desde el 0 hasta el 20 
 
+/*
 for(let i = 0; i <= 10; i++) {
     console.log(i*2)
+}
+*/
+
+// tabla de multiplicar del 1 al 10
+
+for(let i = 1; i <= 10; i++) {
+    console.log ("Tabla de multiplicar del ", i);
+    for(let j = 1; j <= 10; j++){
+        console.log(i + " x " + j + " = " + (i * j));
+}
+console.log("\n");
 }
